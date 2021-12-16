@@ -1,0 +1,13 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner src=new Scanner (System.in);
+		int n = src.nextInt();
+		System.out.println(n);
+	}
+}
