@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner src = new Scanner(System.in);
+		int T = src.nextInt();
+		
+	    for(int i=1;i<=T;i++){
+	       int n = src.nextInt();
+		   int m,sum=0;
+	        while(n>0){
+	            m=n%10;
+	            n=n/10;
+	            sum+=m;
+	        }
+	       System.out.println(sum);
+	    }
+	}
+}
